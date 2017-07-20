@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Cheesr - Making cheese taste beta</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container">
+        <div id="header">...</div>
+        <div id="main">
+            <div class="cheeses" wicket:id="cheeses">
+                <h3 wicket:id="name">Gouda</h3>
+                <p wicket:id="description">Gouda is a dutch...</p>
+                <p>
+                    <span wicket:id="price">$1.99</span>
+                    <a wicket:id="add" href="#">add to cart</a>
+                </p>
+            </div> 
+            <div wicket:id="navigator"></div>
+        </div>
+        <div id="cart">
+            <div wicket:id="shoppingcart"></div>
+            <input type="button" wicket:id="checkout" value="Check out" />
+            <a wicket:id="clock" href="#">Clock</a>
+        </div>
+    </div>
+</body>
+</html>
+
